@@ -1,7 +1,26 @@
 {
-  "name": "cli",
-  "version": "1.1.0",
-  "description": "A CLI for the JS-katana development tools.",
+  "name": "@js-katana/create",
+  "version": "1.0.0",
+  "description": "Js-katana framework cli to create new projects",
+  "keywords": [
+    "js-katana",
+    "js-katana-create",
+    "create",
+    "js-katana-cli",
+    "ki-create",
+    "kt-create",
+    "ki"
+  ],
+  "homepage": "https://github.com/almoatamed/js-katana-create#readme",
+  "bugs": {
+    "url": "https://github.com/almoatamed/js-katana-create/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almoatamed/js-katana-create.git"
+  },
+  "license": "ISC",
+  "author": "S. Elmotamed",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -15,17 +34,6 @@
     "format": "prettier . --write",
     "check-format": "prettier . --check"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/almoatamed/cli.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "",
-  "bugs": {
-    "url": "https://github.com/almoatamed/cli/issues"
-  },
-  "homepage": "https://github.com/almoatamed/cli#readme",
   "devDependencies": {
     "prettier": "^3.0.3",
     "vitest": "^0.34.6",
@@ -45,7 +53,6 @@
     "fs-extra": "^11.1.1",
     "ora": "^7.0.1"
   },
-  "private": true,
   "peerDependencies": {
     "typescript": "^5"
   }
