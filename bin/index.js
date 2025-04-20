@@ -2,9 +2,8 @@
 
 import { program } from 'commander'
 import { create_rest } from '../src/ui.js'
-import logo_in_text_art from '../src/logo_in_text_art.js'
 
-program.name('JS-katana CLI').description('CLI for bootstrapping JS-katana tech projects.').addHelpText('beforeAll', logo_in_text_art).version('1.1.0')
+program.name('JS-katana CLI').description('CLI for bootstrapping JS-katana tech projects.').version('1.1.0')
 
 program
     .command('create-js-katana')

@@ -1,6 +1,6 @@
 {
   "name": "@js-katana/create",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Js-katana framework cli to create new projects",
   "keywords": [
     "js-katana",
@@ -21,7 +21,7 @@
   },
   "license": "ISC",
   "author": "S. Elmotamed",
-  "main": "index.js",
+  "main": "bin/index.js",
   "type": "module",
   "bin": {
     "cli": "bin/index.js"
